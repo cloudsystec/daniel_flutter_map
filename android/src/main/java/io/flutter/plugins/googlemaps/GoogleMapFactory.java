@@ -10,6 +10,7 @@ import io.flutter.plugin.platform.PlatformViewFactory;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@SuppressWarnings("unchecked")
 public class GoogleMapFactory extends PlatformViewFactory {
 
   private final AtomicInteger mActivityState;
