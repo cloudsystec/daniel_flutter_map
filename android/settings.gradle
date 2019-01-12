@@ -1,0 +1,5 @@
+rootProject.name = 'google_maps_flutter'
+compileJava {
+    options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+} 
+  
